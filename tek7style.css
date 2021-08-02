@@ -49,6 +49,13 @@ body {
     width: 100%;
 }
 
+#toggle-hide {
+    display: block;
+
+    margin: 1em 0;
+    padding: 0.5em;
+}
+
 #ganryu {
     cursor: pointer;
     background-image: url("image/ganryu.jpg");

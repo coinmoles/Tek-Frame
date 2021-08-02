@@ -1,32 +1,43 @@
 let characterList
 
-const characterSearch = function(str){
-    console.log("searching");
-
+const panelRefresh = function(hidePanel, str){
     for (charId in characterList) {
         const panel = document.getElementById(charId);
         
-        console.log(characterList[charId], str);
-        
-        if (characterList[charId].indexOf(str) == -1){
+        if (characterList[charId].indexOf(str) == -1 || hidePanel){
             panel.style.display = "none";
         }
         else {
             panel.style.display = "inline-block";
         }
     }
-    document.refr
 };
 
+
 (function() {
+    let hidePanel = false;
+
     const searchBar = document.getElementById("search-bar");
     searchBar.addEventListener('keyup', function() {
-        characterSearch(this.value);
+        panelRefresh(hidePanel, this.value);
+    });
+
+    const toggleHide = document.getElementById("toggle-hide");
+    toggleHide.addEventListener('click', function(){
+        console.log("pika");
+        if (!hidePanel){
+            hidePanel = true;
+            this.innerHTML = "캐릭터 패널 표시하기"
+        }
+        else{
+            hidePanel = false;
+            this.innerHTML = "숨기기"
+        }
+        panelRefresh(hidePanel, searchBar.value);
     });
 
     let request = new XMLHttpRequest();
     request.open('GET', "json/character_list.json");
-    //request.responseType = 'json';
     request.send();
     
     request.onload = function() {
@@ -34,9 +45,3 @@ const characterSearch = function(str){
     };
 
 }());
-
-console.log(characterList)
-for (char in characterList){
-    console.log(char);
-}
-
