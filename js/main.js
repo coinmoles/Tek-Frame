@@ -18,7 +18,7 @@ const panelRefresh = function(hidePanel, search_str){
 const moveListRefresh = function(charId){
     const moveList = document.getElementById("move-list");
 
-    if (charId === '/') {
+    if (charId === "") {
         moveList.style.display = "none";
     }
     else {
@@ -31,7 +31,6 @@ const moveListRefresh = function(charId){
         request.onload = function() {
             moveRef = JSON.parse(request.response);
             for (i in moveRef){
-                console.log(moveRef[i]);
                 appendRow(moveList, moveRef[i]);
             };
         };
@@ -39,18 +38,18 @@ const moveListRefresh = function(charId){
 }
 
 //페이지 로딩 시 기술 리스트와 패널들 새로고침
-const renderPage = function(charId) {
-    if (charId === "/") {
+const renderPage = function() {
+    charId = location.hash.replace("#", "");
+    if (charId === "") {
         panelRefresh(false, "");
     }
     else {
         panelRefresh(true, "");
     }
     moveListRefresh(charId);
-    history.pushState({charId}, null, charId);
 };
 
-// 아래 두 함수는 복붙 코드!!
+// 아래 두 함수는 복붙+alpha 코드!!
 // append row to the HTML table
 function appendRow(tbl, content) {
     const keyword = ["command", "hit-level", "damage", "startup", "blocked", "hit", "counter", "note"];
@@ -94,9 +93,9 @@ function deleteRows(tbl) {
         for (let charId in characterList){
             panel = document.getElementById(charId);
             panel.addEventListener('click', function(i) {
-                return function (){
-                    renderPage(i)
-                };
+                return function() {
+                    location.href = `/#${i}`;
+                }
             }(charId));
         }
     };
@@ -127,13 +126,9 @@ function deleteRows(tbl) {
         location.replace('/')
     });
 
-    window.addEventListener('popstate', e => {
-        console.log(e.state);
-        renderPage(e.state.charId);
+    window.addEventListener('hashchange', e => {
+        renderPage();
     });
 
-    window.onbeforeunload = function (event) {
-        location.replace('/')
-    }
     renderPage('/');
 }());
