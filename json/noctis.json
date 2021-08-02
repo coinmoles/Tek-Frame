@@ -1,12 +1,12 @@
 {
-    "0": {
-        "hit-level": "중",
-        "command": "2AP",
-        "damage": 55,
-        "startup": "20 파크",
-        "blocked": -32,
-        "hit": "잡기",
-        "counter": "잡기",
-        "note": "레이지아츠"
-    }
+  "0": {
+    "command": 0,
+    "hit-level": "\uc911\ub2e8",
+    "damage": 55,
+    "startup": "20 \ud30c\ud06c",
+    "blocked": -32,
+    "hit": "\uc7a1\uae30",
+    "counter": "\uc7a1\uae30",
+    "note": "\ub808\uc544"
+  }
 }
