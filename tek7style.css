@@ -1,0 +1,90 @@
+* {
+	box-sizing: border-box;
+	font-family: 'PT Sans', sans-serif;
+}
+
+body {
+    background-color: #35363a;
+}
+
+.site-header {
+    background-image: url("image/tekken 7 title.jpg");
+    background-color: #660000;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 1em;
+}
+
+.site-header a {
+    color: #fff;
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+    font-size: larger;
+    text-transform: uppercase;
+    text-decoration: none !important;
+}
+
+.character-info {
+    display: inline-block;
+    text-align: center;
+    width: 45%;
+    padding: 2em;
+    margin: 0.5em 2%;
+
+    background-color: #fff;
+    
+    color: #fff;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-size: 2em;
+}
+
+#search-bar {
+    display: block;
+
+    margin: 1em 0;
+    padding: 0.5em;
+    width: 100%;
+}
+
+#ganryu {
+    cursor: pointer;
+    background-image: url("image/ganryu.jpg");
+    background-position-x: 60%;
+    background-position-y: 5%;
+    background-repeat: no-repeat;
+}
+
+#gigas {
+    cursor: pointer;
+    background-image: url("image/gigas.jpg");
+    background-position-x: 40%;
+    background-position-y: 15%;
+    background-repeat: no-repeat;
+}
+
+#geese {
+    cursor: pointer;
+    background-image: url("image/geese.jpg");
+    background-position-x: 45%;
+    background-position-y: 4%;
+    background-repeat: no-repeat;
+}
+
+#negan {
+    cursor: pointer;
+    background-image: url("image/negan.png");
+    background-position-x: 55%;
+    background-position-y: 4%;
+    background-repeat: no-repeat;
+}
+
+#noctis {
+    cursor: pointer;
+    background-image: url("image/noctis.jpg");
+    background-position-x: 55%;
+    background-position-y: 5%;
+    background-repeat: no-repeat;
+}
