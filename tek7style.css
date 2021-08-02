@@ -13,6 +13,12 @@ body {
     background-position-x: center;
     background-repeat: no-repeat;
     
+    cursor: pointer;
+    color: #fff;
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+    font-size: larger;
+    text-transform: uppercase;
+
     display: block;
     width: 100%;
     text-align: center;
@@ -20,10 +26,7 @@ body {
 }
 
 .site-header a {
-    color: #fff;
-    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
-    font-size: larger;
-    text-transform: uppercase;
+    
     text-decoration: none !important;
 }
 
@@ -94,4 +97,23 @@ body {
     background-position-x: 55%;
     background-position-y: 5%;
     background-repeat: no-repeat;
+}
+
+#move-list {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    display: table;
+}
+
+.first-line {
+    background-color: #660000;
+    border: 2px solid #000;
+}
+
+.other-lines {
+    background-color: #fff;
+    text-align: center;
+    border: 1px solid #000;
+    height: 30px;
 }
