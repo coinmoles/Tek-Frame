@@ -112,8 +112,8 @@ body {
 }
 
 .other-lines {
-    background-color: #fff;
+    background-color: #aaa;
     text-align: center;
     border: 1px solid #000;
-    height: 30px;
+    height: 60px;
 }

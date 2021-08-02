@@ -750,218 +750,98 @@
     "note": "-"
   },
   "75": {
-    "command": "\uacf5\uc911 AP",
-    "hit-level": "\uc911",
-    "damage": "27",
-    "startup": "41",
-    "blocked": "9",
-    "hit": "\ub2e4\uc6b4",
-    "counter": "\ub2e4\uc6b4",
-    "note": "-"
-  },
-  "76": {
-    "command": "66RK",
-    "hit-level": "\uc911",
-    "damage": "15(,14,21)",
-    "startup": "19",
-    "blocked": "-14",
-    "hit": "\uc7a1\uae30",
-    "counter": "\uc7a1\uae30",
-    "note": "-"
-  },
-  "77": {
-    "command": "66AP",
+    "command": "\uae30\uc0c1RP",
     "hit-level": "\uc911",
     "damage": "20",
     "startup": "15",
-    "blocked": "-9",
-    "hit": "10",
-    "counter": "\ub2e4\uc6b4",
-    "note": "\ud638\ubc0d\uae30, \uc2a4\ud06c\ub958"
+    "blocked": "-16",
+    "hit": "\uc2a4\ud134",
+    "counter": "\uc2a4\ud134",
+    "note": "-"
+  },
+  "76": {
+    "command": "\uae30\uc0c1RP*",
+    "hit-level": "\uc911",
+    "damage": "20",
+    "startup": "-",
+    "blocked": "-16",
+    "hit": "\uc2a4\ud134",
+    "counter": "\uc790\uc138\uc774\ud589",
+    "note": "-"
+  },
+  "77": {
+    "command": "\uae30\uc0c1LK",
+    "hit-level": "\uc911",
+    "damage": "13",
+    "startup": "14",
+    "blocked": "-7",
+    "hit": "-9",
+    "counter": "9",
+    "note": "-"
   },
   "78": {
-    "command": "66AK",
-    "hit-level": "\uc0c1",
-    "damage": "50",
-    "startup": "30",
-    "blocked": "-8",
+    "command": "\uae30\uc0c1LK RP",
+    "hit-level": "\uc911",
+    "damage": "13, 20",
+    "startup": "-",
+    "blocked": "-19",
     "hit": "\ub2e4\uc6b4",
     "counter": "\ub2e4\uc6b4",
     "note": "-"
   },
   "79": {
-    "command": "666AP",
+    "command": "\uae30\uc0c1RK",
     "hit-level": "\uc911",
-    "damage": "25",
-    "startup": "23",
-    "blocked": "11",
-    "hit": "\uc2dc\ub3d9",
-    "counter": "\uc2dc\ub3d9",
-    "note": "-"
-  },
-  "80": {
-    "command": "2_LP",
-    "hit-level": "\ud2b9\uc911",
-    "damage": "5",
-    "startup": "10",
+    "damage": "18",
+    "startup": "11",
     "blocked": "-5",
     "hit": "6",
     "counter": "6",
     "note": "-"
   },
+  "80": {
+    "command": "2_3RP",
+    "hit-level": "\ud558",
+    "damage": "19",
+    "startup": "20",
+    "blocked": "-13",
+    "hit": "3",
+    "counter": "\ub2e4\uc6b4",
+    "note": "-"
+  },
   "81": {
-    "command": "2_LP",
-    "hit-level": "\ud2b9\uc911",
-    "damage": "8",
-    "startup": "11",
-    "blocked": "-9",
-    "hit": "5",
-    "counter": "5",
+    "command": "\ud6a1RP",
+    "hit-level": "\uc0c1",
+    "damage": "23",
+    "startup": "20",
+    "blocked": "-13",
+    "hit": "3",
+    "counter": "\ub2e4\uc6b4",
     "note": "-"
   },
   "82": {
-    "command": "2_LK",
-    "hit-level": "\ud558",
-    "damage": "12",
-    "startup": "16",
-    "blocked": "-17",
-    "hit": "-3",
-    "counter": "-3",
-    "note": "-"
+    "command": "RP+AK",
+    "hit-level": "-",
+    "damage": "-",
+    "startup": "-",
+    "blocked": "-",
+    "hit": "-",
+    "counter": "-",
+    "note": "\ud30c\uc6cc\ud06c\ub7ec\uc2dc"
   },
   "83": {
-    "command": "2_RK",
-    "hit-level": "\ud558",
-    "damage": "10",
-    "startup": "12",
-    "blocked": "-15",
-    "hit": "-4",
-    "counter": "-4",
+    "command": "\uc0c1\ub300 \ub2e4\uc6b4\uc2dc 2AK",
+    "hit-level": "\ud558\ub2e8",
+    "damage": "11(, 15)",
+    "startup": "8",
+    "blocked": "-8",
+    "hit": "3",
+    "counter": "3",
     "note": "-"
   },
   "84": {
-    "command": "\uae30\uc0c1 LP",
-    "hit-level": "\uc911",
-    "damage": "10",
-    "startup": "13",
-    "blocked": "-8",
-    "hit": "6",
-    "counter": "6",
-    "note": "-"
-  },
-  "85": {
-    "command": "\uae30\uc0c1 LP RP",
-    "hit-level": "\uc911\uc911",
-    "damage": "10,23",
-    "startup": "13",
-    "blocked": "-13",
-    "hit": "2",
-    "counter": "\ub2e4\uc6b4",
-    "note": "-"
-  },
-  "86": {
-    "command": "\uae30\uc0c1 RP",
-    "hit-level": "\uc911",
-    "damage": "15",
-    "startup": "15",
-    "blocked": "-9",
-    "hit": "-3",
-    "counter": "-3",
-    "note": "-"
-  },
-  "87": {
-    "command": "\uae30\uc0c1 RP RP",
-    "hit-level": "\uc911\uc911",
-    "damage": "13,23",
-    "startup": "15",
-    "blocked": "-14",
-    "hit": "5",
-    "counter": "\uc2a4\ud06c\ub958",
-    "note": "\uc2a4\ud06c\ub958"
-  },
-  "88": {
-    "command": "\uae30\uc0c1 LK",
-    "hit-level": "\uc911",
-    "damage": "12",
-    "startup": "14",
-    "blocked": "-7",
-    "hit": "9",
-    "counter": "9",
-    "note": "-"
-  },
-  "89": {
-    "command": "\uae30\uc0c1 LK RP",
-    "hit-level": "\uc911\uc911",
-    "damage": "12,5(,20)",
-    "startup": "14",
-    "blocked": "-11",
-    "hit": "\uc7a1\uae30",
-    "counter": "\uc7a1\uae30",
-    "note": "-"
-  },
-  "90": {
-    "command": "\uae30\uc0c1RK",
-    "hit-level": "\uc911",
-    "damage": "15",
-    "startup": "11",
-    "blocked": "-6",
-    "hit": "5",
-    "counter": "5",
-    "note": "-"
-  },
-  "91": {
-    "command": "2_3LP",
-    "hit-level": "\uc911",
-    "damage": "25",
-    "startup": "16",
-    "blocked": "-9",
-    "hit": "\ub2e4\uc6b4",
-    "counter": "\ub2e4\uc6b4",
-    "note": "-"
-  },
-  "92": {
-    "command": "2_3RP",
-    "hit-level": "\ud558",
-    "damage": "17",
-    "startup": "20",
-    "blocked": "-13",
-    "hit": "4",
-    "counter": "13",
-    "note": "\ud638\ubc0d"
-  },
-  "93": {
-    "command": "AP+AK",
-    "hit-level": "-",
-    "damage": "-",
-    "startup": "-",
-    "blocked": "-",
-    "hit": "-",
-    "counter": "-",
-    "note": "-"
-  },
-  "94": {
-    "command": "LP+AK",
-    "hit-level": "-",
-    "damage": "-",
-    "startup": "-",
-    "blocked": "-",
-    "hit": "-",
-    "counter": "-",
-    "note": "-"
-  },
-  "95": {
-    "command": "\ud6a1RP",
-    "hit-level": "\uc911",
-    "damage": "21",
-    "startup": "18",
-    "blocked": "0",
-    "hit": "5",
-    "counter": "\ub2e4\uc6b4",
-    "note": "-"
-  },
-  "96": {
-    "command": "\ub4a4LP",
-    "hit-level": "\uc0c1",
+    "command": "\ub4a4 LP",
+    "hit-level": "\uc0c1\ub2e8",
     "damage": "15",
     "startup": "8",
     "blocked": "-8",
@@ -969,28 +849,28 @@
     "counter": "3",
     "note": "-"
   },
-  "97": {
-    "command": "\ub4a4RP",
+  "85": {
+    "command": "\ub4a4 RP",
     "hit-level": "\uc911",
-    "damage": "16",
-    "startup": "20",
-    "blocked": "-9",
+    "damage": "23",
+    "startup": "14",
+    "blocked": "-10",
     "hit": "\ub2e4\uc6b4",
     "counter": "\ub2e4\uc6b4",
     "note": "-"
   },
-  "98": {
-    "command": "\ub4a4LK/RK",
+  "86": {
+    "command": "\ub4a4 LK/RK",
     "hit-level": "\uc0c1",
-    "damage": "25",
+    "damage": "18",
     "startup": "10",
     "blocked": "-8",
     "hit": "\ub2e4\uc6b4",
     "counter": "\ub2e4\uc6b4",
     "note": "-"
   },
-  "99": {
-    "command": "\ub4a42LP/RP",
+  "87": {
+    "command": "\ub4a4 2LP/RP",
     "hit-level": "\ud2b9\uc911",
     "damage": "10",
     "startup": "10",
@@ -999,44 +879,14 @@
     "counter": "9",
     "note": "-"
   },
-  "100": {
-    "command": "\ub4a42LK/RK",
-    "hit-level": "\ud558",
+  "88": {
+    "command": "\ub4a4 2LK/RK",
+    "hit-level": "\ud558\ub2e8",
     "damage": "12",
     "startup": "10",
     "blocked": "-11",
     "hit": "3",
     "counter": "3",
-    "note": "-"
-  },
-  "101": {
-    "command": "6AK",
-    "hit-level": "-",
-    "damage": "-",
-    "startup": "-",
-    "blocked": "-",
-    "hit": "-",
-    "counter": "-",
-    "note": "-"
-  },
-  "102": {
-    "command": "6AK_LP",
-    "hit-level": "\uc911",
-    "damage": "24",
-    "startup": "18",
-    "blocked": "-13",
-    "hit": "\ub2e4\uc6b4",
-    "counter": "\ub2e4\uc6b4",
-    "note": "\ud30c\uc6cc\ud06c\ub7ec\uc2dc,\uc6d4\ubc14\uc6b4\ub4dc"
-  },
-  "103": {
-    "command": "6AK AK",
-    "hit-level": "\ud558",
-    "damage": "17",
-    "startup": "2",
-    "blocked": "-20",
-    "hit": "\ub2e4\uc6b4",
-    "counter": "\ub2e4\uc6b4",
     "note": "-"
   }
 }

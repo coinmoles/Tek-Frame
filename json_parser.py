@@ -10,11 +10,13 @@ def excel_to_json(char_id: str) -> NoReturn:
   move_dict: dict[int, dict[str, Union[str, int]]] = dict()
   for i, move in move_df.iterrows():
     move_dict[i] = {
-      'command': move['num'], 'hit-level': move['hit-level'], 'damage': move['damage'],
+      'command': move['command'], 'hit-level': move['hit-level'], 'damage': move['damage'],
       'startup': move['startup'], 'blocked': move['blocked'], 'hit': move['hit'], 
       'counter': move['counter'], 'note': move['note']
     }
-  with open('json/noctis.json', 'w') as f:
+
+    print(move_dict[i])
+  with open('json/{}.json'.format(char_id), 'w') as f:
     json.dump(move_dict, f, indent=2)
 
-excel_to_json("noctis")
+excel_to_json('gigas')
